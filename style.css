@@ -1,0 +1,39 @@
+div.row {
+    width: 700px;
+    height: 60px;
+    border-left: solid black 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+div.col {
+    width: 60px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    box-sizing: border-box;
+}
+
+div.pinyin {
+    border-bottom: dashed red 1px;
+    height: 10px;
+    width: 60px;
+}
+
+div.pinyin-last {
+    border-bottom: solid black 1px;
+    height: 10px;
+    width: 60px;
+}
+
+div.zi {
+    text-align: center;
+    line-height: 30px;
+}
+
+h3 {
+    margin: 0 0 0 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
