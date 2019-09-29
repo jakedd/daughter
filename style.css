@@ -37,3 +37,21 @@ h3 {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+table {
+    /*border-collapse: collapse;*/
+    /*padding-left: 30px;*/
+    /*padding-top: 30px;*/
+}
+
+table, tr, td {
+    /*border: 1px solid black;*/
+}
+
+td {
+    width: calc(700px / 5);
+    padding-bottom: calc(950px / 6);
+}
+
+/*no title and no title when print*/
+/*@page { size: auto;  margin: 0mm; }*/
